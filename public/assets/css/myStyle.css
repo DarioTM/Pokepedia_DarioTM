@@ -1,0 +1,107 @@
+html,body{
+    margin:0;
+    padding: 0;
+}
+
+
+.navbar-dark .navbar-toggler{
+    border:none;
+}
+
+.botoneslogin{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 99999;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 60px;
+    margin-right:1rem;
+    background:none;
+
+}
+
+
+.a-login{
+        font-size: 1em;
+    text-decoration: none;
+    color: white;
+    padding-right: .5rem;
+    padding-left: .5rem;
+
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+
+
+.navbar{
+    min-height: 60px;
+    /*justify-content:flex-start;*/
+}
+
+
+.logo-poke{
+    background-image: url('../img/pokeball.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+
+}
+.bg-dark{
+    background-color: black!important;
+    
+}
+
+
+
+/*fin menu*/
+
+
+.cont-poke{
+    min-height: 500px;
+    background-image: url('../img/fondoPokemon.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom: 5%;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+/*    .navbar-dark .navbar-brand{*/
+/*    order:2;*/
+/*}*/
+
+.botoneslogin{
+    right: 70px;
+   margin-right:0rem;
+}
+
+nav a:hover{
+
+    transform: scale(1);
+    
+}
+
+
+}

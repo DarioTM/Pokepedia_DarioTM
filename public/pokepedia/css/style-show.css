@@ -1,0 +1,207 @@
+.container-show{
+    width: 100%;
+    min-height: 600px;
+    position:relative;
+    display: flex;
+    justify-content:center;
+    background-color:  rgb(39, 39, 39);
+    border-radius: .25rem;
+    flex-wrap:wrap;
+}
+
+
+.showIMG{
+    flex:1 1  400px;
+    width:100%;
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-color: white;
+}
+
+.showIMG div{
+    width: 500px;
+    height: 500px;
+    overflow:hidden;
+    border-radius: 100%;
+    border: solid 2px #e2b50f;
+    background: #fccb12;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.showIMG div img{
+width: 80%;
+}
+
+
+
+.showDat{
+    flex:2 1 400px;
+    
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction:column;
+}
+
+.showDat1 {
+    position: relative;
+    top: 0;
+    background:#fc5058;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    min-height: 200px;
+}
+
+
+.showDat1 h1{
+    color: white;
+    font-family: fontPokemon;
+    font-size: 4em;
+    
+    margin: 2% 5%
+
+}
+
+
+.showDat2{
+    width: 100%;
+   display: flex;
+   justify-content:center;
+   flex-wrap:wrap;
+   min-height: 200px;
+   
+}
+
+.showDat2 div{
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex:1 1 200px;
+}
+
+.showDat2 div h4{
+    color: white;
+    font-family: Roboto;
+    font-size: 3em;
+    font-weight: 300;
+    
+
+    
+}
+.showDat2 div h5{
+    color: white;
+    font-family: Roboto;
+    font-size: 3em;
+
+}
+
+
+.showDat3{
+    width: 100%;
+    background:#80aae2;  
+    color: white;
+    min-height: 200px;
+}
+
+/*.showDat3 div{*/
+/*    width: 100%;*/
+/*}*/
+.showDat3 div h4{
+    color: white;
+    font-family: Roboto;
+    font-size: 3em;
+    font-weight: 300;
+     margin: 2% 5%
+
+}
+
+.showDat3-2{
+    display: flex;
+     margin: 2% 5%;
+    align-items:center;
+    
+}
+.showDat3-2 h5{
+    
+}
+
+
+.showDat3-2-1{
+    position: relative;
+    flex:1 1 300px;
+    display: flex;
+
+    justify-content:center;
+    margin-right: 20px;
+}
+
+
+.showDat3-2-1 div{
+    margin: 0 5px;
+}
+
+.showDat3-2-1 form button{
+    background:none;
+    border:none;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+.cont-btn-volver{
+    width: 100%;
+    text-align: right;
+}
+
+.cont-btn-volver a{
+        margin: 20px 0;
+    border: none;
+   
+    color: white;
+    font-family: Roboto;
+    font-size: 1em;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+
+
+.showDat4{
+    width: 100%;
+    
+    color: white;
+    min-height: 200px;
+}
+
+
+.showDat4-1{
+    margin: 2% 5%;
+}
+
+.showDat4-2{
+    margin: 2% 5%;
+}
+
+.showDat4 div h1{
+    color: white;
+    font-family: Roboto;
+    font-size: 3em;
+    font-weight: 300;
+    
+
+}

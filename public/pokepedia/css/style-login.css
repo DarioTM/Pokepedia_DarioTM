@@ -1,0 +1,12 @@
+
+.card{
+    border:none;
+}
+
+.card-header{
+    background:rgb(39, 39, 39);
+    color: white;
+    font-family: Roboto;
+    font-weight: 100;
+    font-size: 2em;
+}

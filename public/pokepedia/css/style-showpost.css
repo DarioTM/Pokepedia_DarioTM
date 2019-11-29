@@ -1,0 +1,259 @@
+.contPostshow{
+    flex:0 1 900px;
+    width: 50%;
+    background:white;
+    
+    overflow: hidden;
+    
+    margin: 2%;
+}
+
+.contPost1show{
+    width: 100%;
+    background:rgb(39, 39, 39);
+    display: flex;
+    justify-content:space-between;
+    color: white;
+    
+}
+
+.contPost1show div:nth-child(1){
+    width: 80%;
+    background:rgb(39, 39, 39);
+    justify-content:flex-start;
+}
+
+.contPost1show div:nth-child(2){
+    background:#fc5058;
+    width: 150px;
+    justify-content:center;
+}
+
+.contPost1show div{
+    display: flex;
+    
+    align-items:center;
+}
+
+.contPost1show div h1{
+    font-size: 2em;
+    font-family: Roboto;
+    font-weight: 300;
+    margin:20px 40px;
+}
+
+.contPost1show div a{
+    text-decoration: none;
+    color: white;
+}
+
+.contPost1show div a:hover{
+    transition:0.3s;
+    color: grey;
+}
+
+
+.contPost2show{
+    width: 100%;
+    background:#87C6F0;
+    display: flex;
+    justify-content:space-between;
+    color: white;
+    
+}
+
+
+.contPost2show div:nth-child(1){
+    width: 60%;
+}
+
+.contPost2show div:nth-child(2){
+    background:#ACFCD9;
+    width: 40%;
+}
+
+.contPost2show div{
+    display: flex;
+
+    align-items:center;
+}
+
+.contPost2show div h5{
+    font-size: 1em;
+    font-family: Roboto;
+    font-weight: 300;
+    margin: 20px 40px;
+}
+
+.contPost2show div:nth-child(2) h5{
+    color: rgb(39, 39, 39);
+}
+
+
+.contPost3show{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 30px 40px;
+    width: 80%;
+}
+
+.contPost3 p{
+    margin: 20px 40px;
+    text-align: justify;
+}
+
+.comentarios{
+    position: relative;
+    width: 100%;
+   
+}
+
+
+.hr1{
+   margin:0 40px;
+     width: 100%;
+    height: 1px;
+    margin-bottom: 1%;
+}
+
+.cont-coment{
+    margin:0 40px;
+
+  
+}
+
+.cont-coment h5{
+    font-family: Roboto;
+    font-weight: 100;
+    font-size: 1em;
+    margin-bottom: 4%;
+}
+
+
+.inputDes{
+     opacity: 0;
+     position: absolute;
+}
+
+
+.comentarios form{
+    margin:0 40px;
+    
+    
+}
+
+.textareaComent{
+    position: relative;
+    width: 100%;
+    border-radius: .25rem;
+    border: 1px solid #87C6F0;
+    min-height: 100px;
+    padding:10px;
+    font-family: Roboto;
+    font-weight: 100;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgb(202, 202, 202);
+  font-family: Roboto;
+  font-weight: 100%;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: rgb(202, 202, 202);
+  font-family: Roboto;
+  font-weight: 100%;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: rgb(202, 202, 202);
+  font-family: Roboto;
+  font-weight: 100%;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: rgb(202, 202, 202);
+  font-family: Roboto;
+  font-weight: 100%;
+}
+
+
+.numCome{
+position: absolute;
+    top: -2px;
+    font-family: Roboto;
+    font-weight: 100;
+    font-size: 1em;
+    margin: 0px 140px;
+
+}
+
+
+.showComentarios{
+    margin: 0 40px;
+   
+}
+
+.showSingle{
+    position: relative;
+    box-shadow: 0px 0px 14px 1px rgba(145, 145, 145, 0.35);
+    padding: 1%;
+    margin: 50px 0 20px 0;
+   
+}
+
+.hr2{
+    width: 100%;
+    height: 1px;
+}
+
+.btn-enviar{
+    margin: 20px 0;
+    background: #87C6F0;
+    border: none;
+    color: white;
+    font-family: Roboto;
+    font-size: 1em;
+    padding: 5px 20px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: .25rem;
+
+}
+
+.showSingle div h5{
+    font-weight: 100;
+}
+
+.showSingle div h5 a {
+    text-decoration: none;
+    font-weight: 300;
+    color: #87C6F0;
+}
+
+.cont-btn-volver{
+    width: initial;
+    margin:0 40px;
+}
+
+.fechaComment{
+    display: flex;
+    justify-content:flex-end;
+    width: 100%;
+    text-align: right;
+}
+
+.fechaComment p{
+    margin-right: 15px
+}
+
+.deleteComment{
+    position: absolute;
+    top: 8px;
+    right: 0px;
+    width: 65px;
+}
+
+
+.deleteComment form button{
+    background: none;
+    border:none;
+}

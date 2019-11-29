@@ -1,0 +1,107 @@
+.tablaUser{
+    position: relative;
+    width: 55%;
+
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.contUser{
+
+    min-width: 400px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    flex-wrap:wrap;
+}
+
+.contUser1{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(39, 39, 39);
+    color:white;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.contUser1 div h5{
+    font-size: 2em;
+    font-family: fontPokemon;
+    margin:40px;
+}
+
+
+
+.contUser1 div h1{
+    font-size: 4em;
+    font-family: fontPokemon;
+    margin:40px;
+}
+
+
+.contUser2{
+    width: 100%;
+    background-color: #fc5058;
+    color:white;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.contUser2 div h1{
+    text-align: center;
+    font-size: 2.2em;
+    font-family: Roboto;
+    font-weight: 100;
+    margin:40px;
+}
+
+.ultimosPost{
+    width: 100%;
+    position: relative;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.contUser3{
+    width: 100%;
+    height: 150px;
+    background-color: #ACFCD9;
+    color:rgb(39, 39, 39);
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.contUser3 h1{
+    font-size: 4em;
+    font-weight: 100;
+    font-family: Roboto;
+}
+
+.contUser4{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(39, 39, 39);
+    color:white;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.contUser4 h1{
+    font-size: 4em;
+    font-weight: 100;
+    font-family: Roboto;
+}
+
